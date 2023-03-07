@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: End Game animation
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":231.0,"y":24.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"e816d30e-edc2-4b98-bd79-508fa8d640fb","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"189f3d29-86dc-49c8-93db-23d3daffd061","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.Animation","targetTypeName":"UnityEngine.Animation","$version":"A"},"defaultValues":{"target":null},"position":{"x":226.0,"y":-98.0},"guid":"dd8f9014-0322-4fa7-95ae-50fe2df3b75e","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"type":"UnityEngine.Animator","value":null,"defaultValues":{},"position":{"x":-15.0,"y":-7.0},"guid":"e434d02b-def2-4142-befe-b452d4a6ac85","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"24203de6-e46e-4157-8399-7b1dc718be79","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"d596b016-e7b7-46ae-86b4-4165ad3eac0f","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

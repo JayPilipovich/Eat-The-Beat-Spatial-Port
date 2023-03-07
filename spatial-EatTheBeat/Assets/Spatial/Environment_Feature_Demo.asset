@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc1c66bb2ec14ab791591a8bf43d353, type: 3}
+  m_Name: Environment_Feature_Demo
+  m_EditorClassIdentifier: 
+  version: 0
+  sku: 640558cbf0a902db0d6e7bcb
+  packageName: Eat the Beat Test
+  thumbnail: {fileID: 0}
+  variants:
+  - name: HUB
+    id: 5a4e4d605920f4afdbe35a0942b30555
+    scene: {fileID: 102900000, guid: 39ee2c3016a7c5c42978b8e206fd8694, type: 3}
+    thumbnail: {fileID: 2800000, guid: cc02212e78a691d468169ea5344116f4, type: 3}
+    miniThumbnail: {fileID: 0}
+    thumbnailColor: {r: 1, g: 1, b: 1, a: 1}
+  - name: Differences
+    id: 638f7513c062425b8dca2aff9ec7b9a1
+    scene: {fileID: 102900000, guid: c4e86a40a6886034cabadb982f891488, type: 3}
+    thumbnail: {fileID: 2800000, guid: 6ceae8ef94bec00429f6cbb2dbb0d52d, type: 3}
+    miniThumbnail: {fileID: 0}
+    thumbnailColor: {r: 0, g: 0.89707124, b: 0.9622642, a: 1}
+  - name: Run It Up
+    id: 09b83f9752d747a580f47334332d62ec
+    scene: {fileID: 102900000, guid: 08ca6d5e98807934d98ac3efd5da3377, type: 3}
+    thumbnail: {fileID: 2800000, guid: 7f9211ce23cfe2647a68ecaabd8b4c1b, type: 3}
+    miniThumbnail: {fileID: 0}
+    thumbnailColor: {r: 0.88718677, g: 1, b: 0, a: 1}
+  - name: Good Day
+    id: 9fd36a016b584e2b979dd9cb7aa54bc1
+    scene: {fileID: 102900000, guid: 9f7a33ae18fe2e94a91183469d4a16d4, type: 3}
+    thumbnail: {fileID: 2800000, guid: 52eb68de1125f584693f6a8e29b02380, type: 3}
+    miniThumbnail: {fileID: 0}
+    thumbnailColor: {r: 1, g: 0, b: 0.6797638, a: 1}
